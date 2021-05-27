@@ -1,0 +1,185 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>VAXINES</title>
+<link rel="stylesheet" type="text/css" href="cssstyle.css">
+<script>
+function openwin(){
+	window.open("http://localhost/parent.html");
+}
+function openwin1(){
+	window.open("file:///C:/Users/anish/Downloads/signup.html");
+}
+</script>
+
+<style>
+	body{
+    margin: 0;
+    padding: 0;
+    background: url(baby.jpg);
+	width:90%;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.Title{
+	width: 400px;
+	height: 1200px;
+	background: #00fffff;
+	position: absolute;
+	color: #ffffff;
+	font-size: 700%;
+	top: 05%;
+	left: 30%;
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #00fffff;
+    color: #fff;
+    top: 50%;
+    left: 85%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+	margin: auto;
+}
+
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+	color: #000000;
+    text-align: center;
+    font-size: 22px;
+}
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+	color: #000000;
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+	color: #000000;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2520;
+    color: #ff0;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}
+
+.signup {
+	display: none;
+}
+.navbar {
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+    background-color: transparent;
+    color: blue;
+}
+
+
+</style>
+</head>
+<body oncontextmenu="return false">
+
+	
+	<div class="Title">
+	
+		<h1>VAXINES</h1>
+		<h2>Child Vaccination Reminder Tool</h2>
+		</div>
+	
+    <div class="loginbox">
+    
+        <h1>Login</h1>
+        <form class="login"action="/" method="POST">
+            <p>Username</p>
+            <input type="text" id="username" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" id="password" placeholder="Enter Password">
+            <input type="submit" name="" value="Login" onclick="openwin()"/>
+			<a href="#">Lost your password?</a><br>
+            <a href="file:///C:/Users/anish/Downloads/signup.html" id="msg">Don't have an account?</a><br>
+           
+        </form>
+        
+    </div>
+	
+	<div class="navbar">
+	<a href="file:///C:/Users/anish/Downloads/index.html#contact" class="active">Home</a>
+	<a href="#vaacineinfo">Vaccine Info</a>
+	<a href="file:///C:/Users/anish/Downloads/aboutus.html">About us</a>
+	</div>
+
+	
+</body>
+</html>
